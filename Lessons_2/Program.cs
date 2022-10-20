@@ -28,7 +28,7 @@ Console.Write($"second digit {z}");
 // 32679 -> 6
 
 /*
-int a = new Random().Next(1, 100000);
+int a = new Random().Next(100, 1000000);
 if (a > 99)
 {
     void ThirdDigit(int c)
@@ -44,6 +44,45 @@ if (a > 99)
 else
     Console.WriteLine("no third digit");
 */
+
+//2 - ой вариант задачи 13
+
+/*
+Console.Write("Enter the number");
+int a = Convert.ToInt32(Console.ReadLine());
+
+if (a > 99)
+{
+    int ThirdDigit(int a)
+    {
+        string a1 = Convert.ToString(a);
+        Console.WriteLine($"third digit {a1[2]}");
+        return a;
+    }
+
+    ThirdDigit(a);
+
+}
+if (a < -99)
+{
+    int ThirdDigit2(int a)
+    {
+        string a1 = Convert.ToString(a);
+        string w = Convert.ToString(a1[3]);
+        int s = Convert.ToInt32(w);
+       // Console.WriteLine($"third digit -{a1[3]}");
+        Console.WriteLine($"third digit {-s}");
+        return a;
+    }
+
+    ThirdDigit2(a);
+}
+
+if (a < 99 && a > -99)
+    Console.WriteLine("no third digit");
+*/
+
+
 
 
 

@@ -89,9 +89,9 @@ else
 // 8 -> 2, 4, 6, 8
 /*
 Console.WriteLine("Укажите число");
-int number_A = Convert.ToInt32(Console.ReadLine());
+int A = Convert.ToInt32(Console.ReadLine());
 int y = 1;
-while (y <= number_A)
+while (y <= A)
 {
     if (y % 2 == 0)
         Console.WriteLine(y);
