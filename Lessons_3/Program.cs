@@ -6,8 +6,11 @@
 Console.WriteLine("Enter the number");
 int a = Convert.ToInt32(Console.ReadLine());
 int temp = a;
-int x = 0;
 int c;
+
+int palindrome(int x)
+{
+    x = 0;
 while (a > 0)
 {
     c = a % 10;
@@ -15,11 +18,13 @@ while (a > 0)
     a = a / 10;
 }
 if (temp == x)
-    Console.WriteLine("It's a palindrome!!");
+    Console.WriteLine("It's a palindrome!");
 else
     Console.WriteLine("It's not a palindrome!");
+    return x;
+}
+palindrome(a);
 */
-
 
 
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
@@ -30,7 +35,7 @@ else
 
 
 /*
-void Main(int a)
+void Main()
 {
     Console.Clear();
     Console.WriteLine("Enter х1 :  ");
@@ -55,8 +60,8 @@ void Main(int a)
     double c = Math.Round(res, 2);
     Console.WriteLine($"distance between points in 3D space {c}");
 }
-int a = 0;
-Main(a);
+
+Main();
 */
 
 
@@ -67,12 +72,12 @@ Main(a);
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-/*
+
 Console.WriteLine("Enter the number");
  int x = Convert.ToInt32(Console.ReadLine());
-void Kub (int i)
+void Kub ()
 {
-    i = 1;
+   int i = 1;
 while (i <= x )
 {
   int y = Convert.ToInt32(Math.Pow(i, 3)); 
@@ -80,5 +85,4 @@ while (i <= x )
   i++;  
 }
 }
-Kub(x);
-*/
+Kub();
