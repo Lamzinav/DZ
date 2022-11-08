@@ -23,9 +23,34 @@ else
     Console.WriteLine("It's not a palindrome!");
     return x;
 }
-palindrome(a);
+ palindrome(a);
+
 */
 
+void NumPal(int num)
+{
+    int palin = 0;
+    int temp = num;
+    while(num>0)
+    {
+        int temp1 = num%10;
+        palin=palin*10 + temp1;
+        num=num/10;
+    }
+    if (palin==temp)
+    {
+        // return true;
+        Console.WriteLine("Palindrom");
+    }
+    else 
+    {
+        // return false;
+    Console.WriteLine("Не Palindrom)");
+    }
+    
+}
+int numb = Convert.ToInt32(Console.ReadLine());
+NumPal(numb);
 
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
@@ -72,7 +97,7 @@ Main();
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-
+/*
 Console.WriteLine("Enter the number");
  int x = Convert.ToInt32(Console.ReadLine());
 void Kub ()
@@ -86,3 +111,4 @@ while (i <= x )
 }
 }
 Kub();
+*/
