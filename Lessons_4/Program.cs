@@ -68,13 +68,13 @@ if (value == 0)
     Console.WriteLine($"Sum of numbers =  0  ");
 */
 
-
+/*
 int[] PrintArray(int size)
 {
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
     {
-        Console.Write("Array[{0}] = ", i);
+        Console.Write($"Array[{i}] = ");
         array[i] = Convert.ToInt32(Console.ReadLine());
     }
     return array;
@@ -93,9 +93,12 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = PrintArray(n);
 Perebor(myArray);
+*/
 
-
-
+// Console.Write("Input a min possible value:  ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a max possible value:  ");
+// int max = Convert.ToInt32(Console.ReadLine());
 
 
 

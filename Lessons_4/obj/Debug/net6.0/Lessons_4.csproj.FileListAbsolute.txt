@@ -1,0 +1,15 @@
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\Lessons_4.csproj.AssemblyReference.cache
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\Lessons_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\Lessons_4.AssemblyInfoInputs.cache
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\Lessons_4.AssemblyInfo.cs
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\Lessons_4.csproj.CoreCompileInputs.cache
+C:\Users\Arh\Documents\Seminar\Lessons_4\bin\Debug\net6.0\Lessons_4.exe
+C:\Users\Arh\Documents\Seminar\Lessons_4\bin\Debug\net6.0\Lessons_4.deps.json
+C:\Users\Arh\Documents\Seminar\Lessons_4\bin\Debug\net6.0\Lessons_4.runtimeconfig.json
+C:\Users\Arh\Documents\Seminar\Lessons_4\bin\Debug\net6.0\Lessons_4.dll
+C:\Users\Arh\Documents\Seminar\Lessons_4\bin\Debug\net6.0\Lessons_4.pdb
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\Lessons_4.dll
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\refint\Lessons_4.dll
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\Lessons_4.pdb
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\Lessons_4.genruntimeconfig.cache
+C:\Users\Arh\Documents\Seminar\Lessons_4\obj\Debug\net6.0\ref\Lessons_4.dll
