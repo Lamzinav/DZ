@@ -2,7 +2,7 @@
 
 //[345, 897, 568, 234] -> 2
 
-
+/*
 int[] PrintArray(int size)
 {
     int[] array = new int[size];
@@ -25,7 +25,7 @@ int s = Convert.ToInt32(Console.ReadLine());
 
 int[] myarray = PrintArray(s);
 EvenNumber(myarray);
-
+*/
 
 
 
@@ -71,16 +71,22 @@ OddElement(myarray);
 // [3 7 22 2 78] -> 76
 
 
-/*
+
 double[] PrintArray(int size)
 {
     double[] array = new double[size];
 
     for (int i = 0; i < size; i++)
     {
+array[i] = new Random().NextDouble() + new Random().Next(10, 100);
+array[i] = Math.Round(array[i], 2);
+Console.WriteLine(array[i]);
+ // Console.WriteLine(" {0:F2} ", array[i]  );
+    }
+    /*{
         Console.Write("array[{0}] = ", i);
         array[i] = Convert.ToDouble(Console.ReadLine());
-    }
+    }*/
     return array;
 }
 
@@ -111,4 +117,4 @@ double Min = MinElement(myarray, min);
 double z = Max - Min;
 z = Math.Round(z, 1);
 Console.WriteLine($"Difference between maximum and minimum elements of array = {z}");
-*/
+
